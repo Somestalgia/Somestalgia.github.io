@@ -1,0 +1,103 @@
+body{
+    background-color: #191919;
+}
+header{
+    margin: 18px 11px 15px;
+}
+main{
+    margin: 2px 11px 20px;
+}
+footer{
+    margin: 0px 11px;
+}
+h1{
+    margin: 0px 0px;
+    font-size: 40px;
+}
+p{
+    margin:6px 0px;
+    font-size: 17px;
+}
+a{
+    color: #00ff41;
+    text-decoration: none;
+}
+a:hover{
+    color: #04bf34;
+}
+a:active{
+    color: #58fc81;
+}
+.getout:hover{
+    color: #00ff41;
+}
+.getout:hover .endit {
+    visibility: visible;
+    display: inline;
+}
+.getout{
+    color: #04bf34;
+}
+.endit{
+    visibility: hidden;
+    display: none;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
+    background-color: #00ff41;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    background-color: #00ff41;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 5px;
+    background-color: #00ff41;
+    padding: 5px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
+.spacer{
+    background-color: black;
+    padding: 5px;
+    color: #00ff41;
+}
+.spacer:hover{
+    border-color: #04bf34;
+}
+.terminal{
+    font-family: "IBM Plex Mono", monospace;
+    color: #00ff41;
+}
+@keyframes death{
+    from{
+        background-color: #191919;
+    }
+    to{
+        background-color: #00ff41;
+    }
+}
+.thereisno{
+    animation: death 10s forwards;
+}
+#curses{
+    color: #191919;
+}
+#curses:hover{
+    color: #04bf34;
+}

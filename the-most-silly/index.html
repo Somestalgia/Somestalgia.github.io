@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Silly story generator</title>
+
+    <style>
+      body {
+        font-family: verdana, sans-serif;
+		text-align:center;
+		background-color: #2B4570;
+		color: white;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 11px;
+        width: 400px;
+		border-color: white;
+		background-color: #2B4570;
+		color: white;
+		font-family: verdana, sans-serif;
+      }
+	  
+	  input[type="text"]:active{
+	    background-color: #3a66b0;
+	  }
+
+      p {
+        background: #FF5D73;
+        color: #37000A;
+        padding: 10px;
+        visibility: hidden;
+		font-size: 22px;
+		margin-top: 45px;
+      }
+	  
+	  button{
+	    font-family: verdana, sans-serif;
+	  }
+	  
+	  .firster {
+	    margin-top: 50px;
+	  }
+	  
+	  .naming{
+	    font-size: 70px;
+	  }
+	  
+	  .vertical-center {
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+	  
+	  .story{
+	    margin-left: 15%;
+		margin-right: 15%;
+	  }
+	  
+	  .randomize{
+	    font-size: 17px;
+		background-color: #2B4570;
+		color: white;
+		border-color: white;
+		margin-top: 15px;
+	  }
+	  
+	  .randomize:hover{
+		background-color: #3a66b0;
+	  }
+	  
+	  .randomize:active{
+		background-color: #3a66b0;
+	  }
+	  
+	  .usgbmm{
+	    font-size: 40px;
+	  }
+	  
+	  .usgbmm:hover{
+	    color: #A8D0DB;
+	  }
+	  
+	  .usgbmm:active{
+	    color: #FF5D73;
+	  }
+    </style>
+  </head>
+
+  <body>
+    <div class="firster">
+      <label class="naming" for="customname">Enter custom name: </label>
+      <input class="naming" id="customname" type="text" placeholder="" />
+    </div>
+    <div>
+      <label class="usgbmm" for="us">US</label
+      ><input class="vertical-center" id="us" type="radio" name="ukusmm" value="us" checked />
+      <label class="usgbmm" for="uk">UK</label
+      ><input class="vertical-center" id="uk" type="radio" name="ukusmm" value="uk" />
+	  <label class="usgbmm" for="mm">MM</label
+      ><input class="vertical-center" id="mm" type="radio" name="ukusmm" value="mm" />
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story"></p>
+	<script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+body{
+	background-color: #ece2d0;
+}
+
+nav{
+	background-color: #27213c;
+	
+}
+a.navbar-brand{
+	color: white;
+	font-size: 45px;
+	padding-left: 12px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+a.navbar-brand:hover{
+	color: white;
+}
+a.nav-link{
+	color: white;
+	font-size: 30px;
+	margin-right: 10px;
+}
+a.nav-link:hover{
+	color: #c2d4be;
+}
+a.nav-link:active{
+	color: #de6c83;
+}
+button.navbar-toggler{
+	border-color: white;
+	color: white;
+}
+.exist{
+	font-size: 21px;
+	color: #27213c;
+	font-weight: 600;
+}
+p.exist>a{
+	color: #477890;
+	text-decoration: none;
+}
+p.exist>a:hover{
+	color: #758173;
+}
+p.exist>a:active{
+	color: #de6c83;
+}
+.proyecto{
+	background-color: #27213c;
+	color: white;
+	font-size: 32px;
+	padding: 12px 24px;
+	width: 325px;
+}
+.proyecto:hover{
+	background-color: #52477a;
+	color: white;
+}
+.proyecto:active{
+	background-color: #8B4A63;
+	color: white;
+}
+.center{
+	margin: auto;
+	width: 325px;
+	padding: 0px;
+}
+#projected{
+	text-align: center;
+	color: #27213c;
+	font-size: 70px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+#far-right{
+	padding-right: 12px;
+	padding-bottom: 10px;
+	cursor: not-allowed;
+}
+#welcome{
+	margin-top: 40px;
+	font-size: 70px;
+	color: #27213c;
+	margin-bottom: 10px;
+}
+#bytheby{
+	color: #27213c;
+	margin-bottom: 20px;
+}
+#find:active{
+	background-color: #8B4A63;
+	color: white;
+}
+#silly:active{
+	background-color: #8B4A63;
+	color: white;
+}

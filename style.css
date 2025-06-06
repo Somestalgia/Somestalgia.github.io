@@ -47,6 +47,9 @@ p.exist>a:hover{
 p.exist>a:active{
 	color: #de6c83;
 }
+.projdiv{
+	margin: 0;
+}
 .proyecto{
 	background-color: #27213c;
 	color: white;
@@ -96,6 +99,10 @@ p.exist>a:active{
 	color: white;
 }
 #silly:active{
+	background-color: #8B4A63;
+	color: white;
+}
+#nodino:active{
 	background-color: #8B4A63;
 	color: white;
 }

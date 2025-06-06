@@ -39,7 +39,10 @@ function main(){
 	dificil();
 	console.log(canvas.height);
 	console.log(canvas.width);
-	document.addEventListener("keydown", run);
+	//computer interaction
+	document.addEventListener("keydown", runk);
+	//mobile interaction
+	document.addEventListener("touchstart", runt);
 }
 //loads the background
 function background(){
@@ -52,8 +55,8 @@ function background(){
 	ctx.textAlign = "center";
 	ctx.fillText("press space to start", 450, 130);
 }
-//starts the game
-function run(e){
+//starts the game w/ keyboard
+function runk(e){
 	ctx.fillStyle = "#ffcdb2";
 	console.log("dfgsdf");
 	if(e.key == " "){
@@ -67,6 +70,21 @@ function run(e){
 		else{
 			jump();
 		}
+	}
+}
+//starts the game on mobile
+function runt(){
+	ctx.fillStyle = "#ffcdb2";
+	console.log("dfgsdf");
+	if(score == -1){
+		score++;
+		ctx.fillRect(0, 90, canvas.width, 100);
+		ctx.fillStyle = "#390040";
+		ctx.font = "bold 25px monospace";
+		ctx.fillText("score: "+ score, 800, 50);
+	}
+	else{
+		jump();
 	}
 }
 //animates the lil guy

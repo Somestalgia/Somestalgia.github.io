@@ -1,0 +1,16 @@
+body{
+	background-color: #390040;
+}
+canvas{
+	border: 5px solid #390040;
+	width: 900px;
+	height: 600px;
+	display: inline;
+}
+.canvased{
+	width: 100%;
+	text-align: center;
+}
+.byebye{
+	visibility: hidden;
+}
